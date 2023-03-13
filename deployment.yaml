@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: dip97/gitops:1.0
+          image: dip97/gitops01:96483537e7994fd520cdf1a5ce9ffe967e0bde63
           imagePullPolicy: Always
           ports:
             - containerPort: 80
